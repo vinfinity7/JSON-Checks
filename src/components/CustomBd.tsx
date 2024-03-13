@@ -6,6 +6,11 @@ const CustomBreadcrumb = () => {
   return (
     <Breadcrumb  separator={<ChevronRightIcon color='gray.500' />}>
       <BreadcrumbItem>
+        <BreadcrumbLink as={Link} to='/'>
+          Home
+        </BreadcrumbLink>
+      </BreadcrumbItem>
+      <BreadcrumbItem>
         <BreadcrumbLink as={Link} to='/page1'>
           Release Notes
         </BreadcrumbLink>

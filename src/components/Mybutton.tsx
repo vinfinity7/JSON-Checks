@@ -10,7 +10,7 @@ function MyButton() {
     if (isClicked) {
       const timer = setTimeout(() => {
         window.location.href = "/page1";
-      }, 4000);
+      }, 2000);
 
       return () => clearTimeout(timer);
     }
