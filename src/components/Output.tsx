@@ -78,7 +78,7 @@ const Output = ({
         title: "An error occurred.",
         description: error.message || "Unable to run code",
         status: "error",
-        duration: 6000,
+        duration: 3000,
       });
     }
   };
@@ -118,7 +118,7 @@ const Output = ({
         title: "An error occurred.",
         description: error.message || "Unable to run code",
         status: "error",
-        duration: 6000,
+        duration: 3000,
       });
 
       setIsValidSchema(false);
