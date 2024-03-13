@@ -2,7 +2,7 @@
 
 An in-browser code editor that allows you to validate your JSON schema against draft 2020-12 and check if it is of type Array with item types numbers.
 
-#Technologies Used
+# Technologies Used
 
 ## AJV (Another JSON Schema Validator)
 
