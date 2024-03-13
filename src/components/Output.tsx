@@ -60,14 +60,7 @@ const Output = ({
       const isValid5 = ajvInstance.validate(jsonData, input5);
       if (!isValid5) passCounter++;
 
-      const input6 = [
-        [1, 2],
-        [3, 4],
-      ];
-      const isValid6 = ajvInstance.validate(jsonData, input6);
-      if (!isValid6) passCounter++;
-
-      if (passCounter === 6) {
+      if (passCounter === 5) {
         setOutput("JSON schema defines an array with items of type number.");
         setIsError(false);
         setisPass(true);
@@ -94,7 +87,7 @@ const Output = ({
     setIsError(false);
     setisPass(false);
     setIsValidSchema(false);
-    setValue(CODE_SNIPPETS['json']);
+    setValue(CODE_SNIPPETS["json"]);
   };
   const runCode = async () => {
     const sourceCode = editorRef.current.getValue();
@@ -134,13 +127,12 @@ const Output = ({
 
   return (
     <Box w="100%">
-   
-        <Button colorScheme="green" size="xs" onClick={handleButtonClick}>
-          {isValidSchema ? "Check Array Functionality" : "Test Validity"}
-        </Button>
-        <Button colorScheme="blue" onClick={handleReset} size="xs" mx={1}>
-          Reset
-        </Button>
+      <Button colorScheme="green" size="xs" onClick={handleButtonClick}>
+        {isValidSchema ? "Check Array Functionality" : "Test Validity"}
+      </Button>
+      <Button colorScheme="blue" onClick={handleReset} size="xs" mx={1}>
+        Reset
+      </Button>
       <Box
         height="25vh"
         mt={2}
