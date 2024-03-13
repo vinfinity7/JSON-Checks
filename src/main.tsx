@@ -4,6 +4,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import App from "./App.js";
 import { ChakraProvider } from "@chakra-ui/react";
 import Welcome from "./components/Welcome.js";
+import PageNotFound from "./components/page404.js";
+
 
 
 ReactDOM.render(

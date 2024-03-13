@@ -4,5 +4,5 @@ export const CODE_SNIPPETS = {
     "$id": "https://example.com/schemas/product-schema.json",
       "type": "array",
       "items": { "type": "integer" }
-    }`,
+}`,
 };

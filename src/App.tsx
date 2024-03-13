@@ -4,11 +4,12 @@ import Heading from "./components/Heading";
 import CustomBreadcrumb from "./components/CustomBd";
 import ReleaseNotes from "./components/Text-Holds";
 import TextSupport from "./components/Text-Holder2";
-import { Route, Routes } from "react-router";
+import { Navigate, Route, Routes } from "react-router";
 // import Welcome from "./components/Welcome";
 
 function App() {
   return (
+
     <Box minH="100vh" bg="#ffffff" color="black">
       <Heading h1="Validate Your JSON!" h2="Check its Array Type" />
       <Flex direction={{ base: "column", md: "row" }}>
