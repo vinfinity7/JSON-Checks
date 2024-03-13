@@ -1,3 +1,7 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/65e5b158-7480-43d9-bcbf-1073fa16f85f/deploy-status)](https://app.netlify.com/sites/superb-brigadeiros-3988a1/deploys)
+
+
+
 # React + Vite
 
 An in-browser code editor that allows you to validate your JSON schema against draft 2020-12 and check if it is of type Array with item types numbers.
