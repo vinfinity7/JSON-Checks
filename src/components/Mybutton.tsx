@@ -35,9 +35,9 @@ function MyButton() {
       style={{ transition: "opacity 0.5s", opacity }}
     >
       <span>
-        <Kbd>Scroll</Kbd> + <Kbd>Down</Kbd>
+        <Kbd>Start</Kbd> + <Kbd>Now</Kbd>
       </span>
-      <Icon as={ArrowForwardIcon} transform="rotate(90deg)" ml={2} />
+      <Icon as={ArrowForwardIcon}  ml={2} />
     </Button>
   );
 }

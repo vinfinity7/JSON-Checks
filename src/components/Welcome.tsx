@@ -14,7 +14,10 @@ function Welcome() {
       alignItems="center"
     >
       <VStack>
-        <Heading h1="WELCOME TO JSON VALIDATOR" h2="and Array Checker" />
+        <Box ml={2}>
+
+        <Heading  h1="WELCOME TO JSON VALIDATOR" h2="and Array Checker" />
+        </Box>
         <MyButton/>
       </VStack>
     </Box>
