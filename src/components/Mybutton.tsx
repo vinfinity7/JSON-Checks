@@ -1,32 +1,43 @@
-import { Button } from "@chakra-ui/react";
+import { Button, Icon } from "@chakra-ui/react";
 import { ArrowForwardIcon } from "@chakra-ui/icons";
 import { Link } from "react-router-dom";
 import { useState, useEffect } from "react";
+import { Kbd } from "@chakra-ui/react";
 
 function MyButton() {
-  const [isClicked, setIsClicked] = useState(false);
+  const [opacity, setOpacity] = useState(1);
 
   useEffect(() => {
-    if (isClicked) {
-      const timer = setTimeout(() => {
-        window.location.href = "/page1";
-      }, 2000);
+    const handleScroll = () => {
+      const scrollPosition = window.scrollY;
+      const maxScroll = document.documentElement.scrollHeight - window.innerHeight;
+      const opacity = 1 - (scrollPosition / maxScroll);
+      setOpacity(opacity);
 
-      return () => clearTimeout(timer);
-    }
-  }, [isClicked]);
+      if (scrollPosition > maxScroll ) {
+        window.location.href = "/page1";
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
   return (
     <Button
       as={Link}
-      to="#"
-      rightIcon={<ArrowForwardIcon />}
+      to="/page1"
       colorScheme="black"
       variant="outline"
-      onClick={() => setIsClicked(true)}
-      style={{ transition: "opacity 2s", opacity: isClicked ? 0 : 1 }}
+      style={{ transition: "opacity 0.5s", opacity }}
     >
-      Start
+      <span>
+        <Kbd>Scroll</Kbd> + <Kbd>Down</Kbd>
+      </span>
+      <Icon as={ArrowForwardIcon} transform="rotate(90deg)" ml={2} />
     </Button>
   );
 }
