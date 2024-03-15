@@ -15,7 +15,7 @@ An in-browser code editor that allows you to validate your JSON schema against d
 
 ## AJV (Another JSON Schema Validator)
 
-AJV is a JSON Schema validator for both browser and Node.js environments. It supports draft-04/06/07 of JSON Schema specifications and provides a rich set of features for validating JSON data against schemas. In this project, AJV is used to validate JSON schemas entered into the code editor against the draft 2020-12 specification.
+AJV is a JSON Schema validator for both browser and Node.js environments. Ajv supports JSON Schema (drafts 04, 06, 07, 2019-09 and 2020-12)[https://ajv.js.org/#:~:text=Out%20of%20the%20box%2C%20Ajv%20supports%20JSON%20Schema%20(drafts%2004%2C%2006%2C%2007%2C%202019%2D09%20and%202020%2D12)%20and] specifications and provides a rich set of features for validating JSON data against schemas. In this project, AJV is used to validate JSON schemas entered into the code editor against the draft 2020-12 specification.
 
 ## Monaco Editor
 
