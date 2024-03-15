@@ -1,5 +1,4 @@
 <div align="center" >
-[![Netlify Status](https://api.netlify.com/api/v1/badges/65e5b158-7480-43d9-bcbf-1073fa16f85f/deploy-status)](https://app.netlify.com/sites/superb-brigadeiros-3988a1/deploys)
   
 ![Vercel](http://therealsujitk-vercel-badge.vercel.app/?app=therealsujitk-vercel-badge)
 
