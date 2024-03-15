@@ -37,10 +37,14 @@ npm run dev
 
 
 ##### If you wish to see some exemplar JSON SCHEMAS, you can check out [Schemas-Draft](src/schema/schemasdraft.md).
+<hr/>
 
 #####  Also
+
 <div align="center" >
-[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Donate%20Now-brightgreen)](https://www.buymeacoffee.com/vinfinity7)
+
+  [![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Donate%20Now-brightgreen)](https://www.buymeacoffee.com/vinfinity7)
 
 [![GitHub](https://img.shields.io/github/followers/vinfinity7?label=Follow%20%40vinfinity7&style=social)](https://github.com/vinfinity7)
+
 </div>
