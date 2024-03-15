@@ -1,6 +1,10 @@
+<div align="center" >
 [![Netlify Status](https://api.netlify.com/api/v1/badges/65e5b158-7480-43d9-bcbf-1073fa16f85f/deploy-status)](https://app.netlify.com/sites/superb-brigadeiros-3988a1/deploys)
 ![Vercel](http://therealsujitk-vercel-badge.vercel.app/?app=therealsujitk-vercel-badge)
-
+  
+[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Donate%20Now-brightgreen)](https://www.buymeacoffee.com/vinfinity7)
+[![GitHub](https://img.shields.io/github/followers/vinfinity7?label=Follow%20%40vinfinity7&style=social)](https://github.com/vinfinity7)
+</div>
 
 # React + Vite
 
