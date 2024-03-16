@@ -15,7 +15,7 @@ function MyButton() {
       const opacity = 1 - scrollPosition / maxScroll;
       setOpacity(opacity);
 
-      if (scrollPosition > maxScroll * 0.5) {
+      if (scrollPosition > maxScroll * 0.9) {
         window.location.href = "/page1";
       }
     };
