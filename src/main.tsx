@@ -12,12 +12,12 @@ ReactDOM.render(
   <React.StrictMode>
     <ChakraProvider>
       <BrowserRouter basename="/">
-     <Box h='100vh' overflowY='hidden' >
+     {/* <Box h='100vh' overflowY='hidden' > */}
       <Routes>
       <Route exact path="/" element={<Welcome />} />
       </Routes>
         <App />
-     </Box>
+     {/* </Box> */}
       </BrowserRouter>
     </ChakraProvider>
   </React.StrictMode>,

@@ -10,11 +10,12 @@ function MyButton() {
   useEffect(() => {
     const handleScroll = () => {
       const scrollPosition = window.scrollY;
-      const maxScroll = document.documentElement.scrollHeight - window.innerHeight;
-      const opacity = 1 - (scrollPosition / maxScroll);
+      const maxScroll =
+        document.documentElement.scrollHeight - window.innerHeight;
+      const opacity = 1 - scrollPosition / maxScroll;
       setOpacity(opacity);
 
-      if (scrollPosition > maxScroll ) {
+      if (scrollPosition > maxScroll * 0.5) {
         window.location.href = "/page1";
       }
     };
@@ -35,9 +36,9 @@ function MyButton() {
       style={{ transition: "opacity 0.5s", opacity }}
     >
       <span>
-        <Kbd>Start</Kbd> + <Kbd>Now</Kbd>
+        <Kbd>Scoll Down</Kbd> / <Kbd>Click</Kbd>
       </span>
-      <Icon as={ArrowForwardIcon}  ml={2} />
+      <Icon as={ArrowForwardIcon} ml={2} transform="rotate(90deg)" />
     </Button>
   );
 }
