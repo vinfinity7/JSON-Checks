@@ -145,7 +145,7 @@ const Output = ({
         {output ? (
           <Text>{output}</Text>
         ) : (
-          <Text> Click "Run Code" to see the output here</Text>
+          <Text> Click "Test Validity" to see the output here</Text>
         )}
       </Box>
     </Box>
